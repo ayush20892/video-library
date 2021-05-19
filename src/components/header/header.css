@@ -9,7 +9,7 @@ nav {
   top: 0;
   display: flex;
   justify-content: space-between;
-  padding: 0.7rem 0rem;
+  padding: 0.4rem 0rem;
 }
 
 nav > .nav-brand {
@@ -28,7 +28,9 @@ nav > .nav-brand {
 .nav-brand > p {
   margin: 0;
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 600;
+  position: relative;
+  bottom: 0.1rem;
 }
 
 nav > .side-icon {
