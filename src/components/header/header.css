@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+nav {
+  background-color: #0f0f0f;
+  color: white;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 0rem;
+}
+
+nav > .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  left: 0.8rem;
+  cursor: pointer;
+}
+
+.nav-brand > img {
+  width: 25%;
+}
+
+.nav-brand > p {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+nav > .side-icon {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  right: 1.5rem;
+}
+
+.side-icon > a > .user {
+  fill: white;
+  font-size: 2rem;
+  margin-top: 0.2rem
+}
+
+.side-icon > a > .search {
+  fill: white;
+  font-size: 2rem;
+  margin-top: 0.2rem
+}
+
+.left-arrow{
+  font-size: 2rem;
+  cursor: pointer;
+}
