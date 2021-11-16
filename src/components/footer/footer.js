@@ -16,21 +16,21 @@ export function Footer () {
           <p>Home</p>
         </Link>
 
-        <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+        <Link to="/category" style={{ textDecoration: "none", color: "black" }}>
           <BsInboxes
             className="icon"
           />
           <p>Category</p>
         </Link>
 
-        <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+        <Link to="/bookmark" style={{ textDecoration: "none", color: "black" }}>
           <BsBookmark
             className="icon"
           />
           <p>Bookmark</p>
         </Link>
 
-        <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+        <Link to="/playlist" style={{ textDecoration: "none", color: "black" }}>
           <RiPlayListAddFill
             className="icon"
           />

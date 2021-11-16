@@ -1,0 +1,68 @@
+.videoPage-box{
+
+}
+
+.videoPage-box > .videoPage-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  color: white;
+  width: 90%;
+  padding: 0 1rem;
+  margin: 0.5rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.videoPage-box > .videoPage-details > h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.videoPage-box > .videoPage-details > p {
+  margin: 0;
+}
+
+.videoPage-box > .videoPage-details > small {
+  color: gray;
+}
+
+.videoPage-box > .video-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2rem;
+}
+
+.video-icons > .icon {
+  fill: white;
+  font-size: 2.3rem;
+}
+
+.videoPage-box > hr {
+  margin: 1rem 0.5rem;
+  border: 0.1px solid gray;
+}
+
+.videoPage-note-box {
+
+}
+
+.videoPage-note-box > input {
+  width: 85%;
+  height: 70px;
+  padding: 1px 10px;
+  margin: 0 4%;
+  border: 0.5px solid grey
+}
+
+.videoPage-note-box > .note-box {
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.videoPage-note-box > li {
+  color: white;
+  padding: 0.5rem 2rem;
+  margin: 0;
+  font-size: 1.5rem;
+}

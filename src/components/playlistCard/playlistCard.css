@@ -1,0 +1,78 @@
+.playlist-no {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.btn-new-playlist {
+  background-color: var(--background-color);
+  border: none;
+  border-color: var(--background-color);
+  color: #0096FF;
+  width: 86%;
+  padding: 0.5rem 0;
+  margin: 0 7%;
+  font-size: 2rem;
+  outline: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.btn-new-playlist > .plus {
+  font-weight: 300;
+}
+
+.btn-new-playlist > span {
+  font-size: 1rem;
+  position: relative;
+  top: 0.6rem;
+}
+
+.playlist-box {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 0 0.6rem;
+  color: white;
+}
+
+.playlist-box > .like {
+  /* width: 20%; */
+  font-size: 3rem;
+  height: 70px;
+  position: relative;
+  left: 0.5rem;
+  margin-right: 2rem;
+}
+
+.playlist-box > img {
+  width: 20%;
+  height: 70px;
+  object-fit: cover;
+}
+
+.playlist-box > .playlist-details {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.playlist-box > .playlist-details > h4 {
+  margin: 0;
+}
+
+.playlist-box > .playlist-details > p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.playlist-box > .three-dots {
+  position: relative;
+  top: 0.5rem;
+  font-size: 1.2rem;
+}

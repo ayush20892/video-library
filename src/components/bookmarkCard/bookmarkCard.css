@@ -1,0 +1,61 @@
+.bookmark-no {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.bookmark-box {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.bookmark-box > .img-box{
+  width: 40%;
+  position: relative;
+}
+
+.bookmark-box > .img-box > img {
+  width: 100%;
+  height: 95px;
+  object-fit: cover;
+}
+
+.bookmark-box > .img-box > span {
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.5rem;
+  font-size: 0.7rem;
+  padding: 0.1rem 0.1rem;
+  color: white;
+  background-color: black;
+}
+
+.bookmark-box > .video-details {
+  width: 50%;
+  margin-top: 0.1rem;
+}
+
+
+.bookmark-box > .video-details > h4 {
+  margin: 0;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.bookmark-box > .video-details > small {
+  margin: 0;
+  color: gray;
+}
+
+.bookmark-box > .three-dots {
+  fill: white;
+  font-size: 1.5rem;
+  position: relative;
+  top: 0.5rem;
+}
+

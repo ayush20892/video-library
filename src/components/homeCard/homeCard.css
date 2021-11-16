@@ -1,0 +1,65 @@
+.video-item-box{
+  height: 309px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-item-box > .img-box {
+  position: relative;
+} 
+
+.video-item-box > .img-box > img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.video-item-box > .img-box > span {
+  position: absolute;
+  bottom: 1rem;
+  right: 0.5rem;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.2rem;
+  color: white;
+  background-color: black;
+}
+
+.video-item-box > .video-details{
+  display: flex;
+  justify-content: space-between;
+  background-color: #0f0f0f;
+  color: white;
+  position: relative;
+  bottom: 0.3rem;
+}
+
+.video-item-box > .video-details > .video-title {
+  margin: 0.6rem 0;
+  margin-left: 0.5rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  flex-flow: wrap column;
+  width: 80%;
+}
+
+.video-item-box > .video-details > .video-title >  h4 {
+  margin: 0;
+  margin-bottom: 0.2rem;
+}
+
+.video-item-box > .video-details > .video-title >  p {
+  margin: 0;
+  color: gray;
+}
+
+.video-item-box > .video-details > .video-title >  small {
+  margin: 0;
+}
+
+.video-item-box > .video-details > .bookmark {
+  font-size: 2.2rem;
+  position: relative;
+  right: 0.6rem;
+  top: 1rem;
+}

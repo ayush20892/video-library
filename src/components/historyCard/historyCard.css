@@ -1,0 +1,73 @@
+.history-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-header > .history-no {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.history-header > .clear-history {
+  color: lightblue;
+  margin: 0;
+  margin-top: 1.4rem;
+  margin-right: 1rem;
+}
+
+.history-box {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.history-box > .img-box{
+  width: 40%;
+  position: relative;
+}
+
+.history-box > .img-box > img {
+  width: 100%;
+  height: 95px;
+  object-fit: cover;
+}
+
+.history-box > .img-box > span {
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.5rem;
+  font-size: 0.7rem;
+  padding: 0.1rem 0.1rem;
+  color: white;
+  background-color: black;
+}
+
+.history-box > .video-details {
+  width: 50%;
+  margin-top: 0.1rem;
+}
+
+
+.history-box > .video-details > h4 {
+  margin: 0;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.history-box > .video-details > small {
+  margin: 0;
+  color: gray;
+}
+
+.history-box > .three-dots {
+  fill: white;
+  font-size: 1.5rem;
+  position: relative;
+  top: 0.5rem;
+}
+

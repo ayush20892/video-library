@@ -1,5 +1,5 @@
 footer{
-  background-color: #0f0f0f;
+  background-color: #212121;
   color: white;
   z-index: 1;
   width: 100%;
@@ -31,4 +31,11 @@ footer > .footer-icons{
   fill: white;
   font-size: 1.4rem;
   margin-top: 0.5rem;
+}
+
+
+@media screen and (min-width: 500px) {
+  footer {
+    display: none;
+  }
 }

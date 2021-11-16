@@ -5,13 +5,14 @@ import { FiUser } from "react-icons/fi"
 import { BiSearchAlt2 } from "react-icons/bi"
 import { useNavigate } from "react-router"
 
-export function Header() {
+
+export function DesktopHeader () {
   let navigate = useNavigate()
   return(
     <nav>
       <div className="nav-brand" onClick={() => navigate("/")}>
-        <img src={icon64} alt="brand icon" />
-        <p>UnVisual</p>
+          <img src={icon64} alt="brand icon" />
+          <p>UnVisual</p>
       </div>
 
       <div className="search-bar">
